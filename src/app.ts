@@ -8,11 +8,9 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-
 // testing
 app.get('/', (req: Request, res: Response) => {
-    res.send('Working Successfully!')
+  res.send('Working Successfully!')
 })
 
-export default app;
-
+export default app
