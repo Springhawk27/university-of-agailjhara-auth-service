@@ -8,3 +8,83 @@
 {"level":"info","message":"development"}
 {"level":"info","message":"Database Connected Successfully"}
 {"level":"info","message":"Application listening on port 5000"}
+{"level":"info","message":"development"}
+{"level":"info","message":"Database Connected Successfully"}
+{"level":"info","message":"Application listening on port 5000"}
+{"level":"info","message":"development"}
+{"level":"info","message":"Database Connected Successfully"}
+{"level":"info","message":"Application listening on port 5000"}
+{"level":"info","message":"development"}
+{"level":"info","message":"Database Connected Successfully"}
+{"level":"info","message":"Application listening on port 5000"}
+{"level":"info","message":"development"}
+{"level":"info","message":"Database Connected Successfully"}
+{"level":"info","message":"Application listening on port 5000"}
+2023-06-02T18:27:34.293Z [right meow!] info: development
+2023-06-02T18:27:39.305Z [right meow!] info: development
+2023-06-02T18:27:42.118Z [right meow!] info: Database Connected Successfully
+2023-06-02T18:27:42.125Z [right meow!] info: Application listening on port 5000
+2023-06-02T18:29:39.804Z [right meow!] info: development
+2023-06-02T18:30:04.386Z [right meow!] info: development
+2023-06-02T18:30:07.422Z [right meow!] info: Database Connected Successfully
+2023-06-02T18:30:07.426Z [right meow!] info: Application listening on port 5000
+2023-06-02T18:37:34.779Z [Successful!] info: development
+2023-06-02T18:37:37.402Z [Successful!] info: Database Connected Successfully
+2023-06-02T18:37:37.406Z [Successful!] info: Application listening on port 5000
+2023-06-02T18:39:14.298Z [Successful!] info: development
+2023-06-02T18:39:17.320Z [Successful!] info: Database Connected Successfully
+2023-06-02T18:39:17.324Z [Successful!] info: Application listening on port 5000
+2023-06-02T18:39:52.106Z [Successful!] info: development
+2023-06-02T18:39:54.612Z [Successful!] info: Database Connected Successfully
+2023-06-02T18:39:54.616Z [Successful!] info: Application listening on port 5000
+2023-06-02T18:40:11.657Z [Successful!] info: development
+2023-06-02T18:40:14.247Z [Successful!] info: Database Connected Successfully
+2023-06-02T18:40:14.251Z [Successful!] info: Application listening on port 5000
+Sat Jun 03 2023 00:43:51 GMT+0600 (Bangladesh Standard Time) 0  [Successful!] info: development
+Sat Jun 03 2023 00:43:54 GMT+0600 (Bangladesh Standard Time) 0  [Successful!] info: Database Connected Successfully
+Sat Jun 03 2023 00:43:54 GMT+0600 (Bangladesh Standard Time) 0  [Successful!] info: Application listening on port 5000
+Sat Jun 03 2023 00:44:11 GMT+0600 (Bangladesh Standard Time) 0:44:11 [Successful!] info: development
+Sat Jun 03 2023 00:44:14 GMT+0600 (Bangladesh Standard Time) 0:44:14 [Successful!] info: Database Connected Successfully
+Sat Jun 03 2023 00:44:14 GMT+0600 (Bangladesh Standard Time) 0:44:14 [Successful!] info: Application listening on port 5000
+Invalid Date NaN:NaN:NaN [Successful!] info: development
+Invalid Date NaN:NaN:NaN [Successful!] info: Database Connected Successfully
+Invalid Date NaN:NaN:NaN [Successful!] info: Application listening on port 5000
+Sat Jun 03 2023 00:46:51 GMT+0600 (Bangladesh Standard Time) 0:46:51 [Successful!] info: development
+Sat Jun 03 2023 00:46:53 GMT+0600 (Bangladesh Standard Time) 0:46:53 [Successful!] info: Database Connected Successfully
+Sat Jun 03 2023 00:46:53 GMT+0600 (Bangladesh Standard Time) 0:46:53 [Successful!] info: Application listening on port 5000
+Sat Jun 03 2023 00:47:35 GMT+0600 (Bangladesh Standard Time) 0:47::35 [Successful!] info: development
+Sat Jun 03 2023 00:47:39 GMT+0600 (Bangladesh Standard Time) 0:47::39 [Successful!] info: Database Connected Successfully
+Sat Jun 03 2023 00:47:39 GMT+0600 (Bangladesh Standard Time) 0:47::39 [Successful!] info: Application listening on port 5000
+Sat Jun 03 2023 00:48:40 GMT+0600 (Bangladesh Standard Time) 0:48:40 [Successful!] info: development
+Sat Jun 03 2023 00:48:43 GMT+0600 (Bangladesh Standard Time) 0:48:43 [Successful!] info: Database Connected Successfully
+Sat Jun 03 2023 00:48:43 GMT+0600 (Bangladesh Standard Time) 0:48:43 [Successful!] info: Application listening on port 5000
+Sat Jun 03 2023 00:48:55 GMT+0600 (Bangladesh Standard Time) 0:48:55 [Successful!] info: development
+Sat Jun 03 2023 00:48:58 GMT+0600 (Bangladesh Standard Time) 0:48:58 [Successful!] info: Database Connected Successfully
+Sat Jun 03 2023 00:48:58 GMT+0600 (Bangladesh Standard Time) 0:48:58 [Successful!] info: Application listening on port 5000
+Sat Jun 03 2023 00:49:59 GMT+0600 (Bangladesh Standard Time) [Successful!] info: development
+Sat Jun 03 2023 00:50:02 GMT+0600 (Bangladesh Standard Time) [Successful!] info: Database Connected Successfully
+Sat Jun 03 2023 00:50:02 GMT+0600 (Bangladesh Standard Time) [Successful!] info: Application listening on port 5000
+Sat Jun 03 2023 00:55:58 GMT+0600 (Bangladesh Standard Time) [Successful!] info: development
+Sat Jun 03 2023 00:56:00 GMT+0600 (Bangladesh Standard Time) [Successful!] info: Database Connected Successfully
+Sat Jun 03 2023 00:56:00 GMT+0600 (Bangladesh Standard Time) [Successful!] info: Application listening on port 5000
+Sat Jun 03 2023 00:57:08 GMT+0600 (Bangladesh Standard Time) [Successful!] info: development
+Sat Jun 03 2023 00:57:11 GMT+0600 (Bangladesh Standard Time) [Successful!] info: Database Connected Successfully
+Sat Jun 03 2023 00:57:11 GMT+0600 (Bangladesh Standard Time) [Successful!] info: Application listening on port 5000
+{
+  message: 'development',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-02T18:59:03.204Z'
+}
+{
+  message: 'Database Connected Successfully',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-02T18:59:06.790Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-02T18:59:06.793Z'
+}
