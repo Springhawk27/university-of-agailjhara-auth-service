@@ -2,7 +2,7 @@ import cors from 'cors'
 import express, { Application, Request, Response } from 'express'
 // import usersService from './app/modules/users/users.service'
 import usersRouter from './app/modules/users/users.route'
-import logger from './shared/logger'
+import { loggerInfo } from './shared/logger'
 const app: Application = express()
 // const port = 3000
 app.use(cors())
@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // eslint-disable-next-line no-console
-logger.info(app.get('env'))
+loggerInfo.info(app.get('env'))
 
 // Application Routes
 app.use('/api/v1/users/', usersRouter)
