@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/errors/.555ef007ad955af6d12daa4f937a905ed70cbc49-audit.json",
+    "files": [
+        {
+            "date": 1685876583804,
+            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/errors/uoa-2023-06-04-17-error.log",
+            "hash": "6c0e1d645aa5d98ee80ceee2ebdbab1d5e7cf58aa9b7f2eb11fb17668a3b7930"
+        }
+    ],
+    "hashType": "sha256"
+}
