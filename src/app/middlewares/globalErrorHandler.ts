@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { NextFunction, Request, Response } from 'express'
+import config from '../../config'
 import { IGenericErrorMessage } from '../../interfaces/error'
-import config from './../../config'
+import handleValidationError from '../../errors/handleValidationError'
 
 const globalErrorHandler = (
   err: any,
@@ -16,6 +17,9 @@ const globalErrorHandler = (
   const message = 'Something Went Wrong'
   const errorMessages: IGenericErrorMessage[] = []
 
+  if (err?.name === 'ValidationError') {
+    const simplifiedError = handleValidationError(err)
+  }
   res.status(statusCode).json({
     success: false,
     message,
