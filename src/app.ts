@@ -21,6 +21,12 @@ app.use('/api/v1/users/', UserRoutes)
 //   res.send('Working Successfully!')
 // })
 
+// unhandled rejection
+// eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
+// app.get('/', async (req: Request, res: Response) => {
+//   Promise.reject(new Error('Unhandled Promise Rejection'))
+// })
+
 // testing
 // eslint-disable-next-line no-unused-vars, no-undef, @typescript-eslint/no-unused-vars
 // app.get('/', (req: Request, res: Response, next: NextFunction) => {
