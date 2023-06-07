@@ -1,17 +1,12 @@
 /* eslint-disable no-unused-vars */
-import { NextFunction, Request, Response } from 'express'
+import { ErrorRequestHandler } from 'express'
 import config from '../../config'
+import ApiError from '../../errors/ApiErrors'
 import handleValidationError from '../../errors/handleValidationError'
 import { IGenericErrorMessage } from '../../interfaces/error'
-import { error } from 'winston'
-import ApiError from '../../errors/ApiErrors'
 
-const globalErrorHandler = (
-  err: any,
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+// if the error is the first parameter then this is a error path pattern hence - ErrorRequestHandler
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   // res.status(400).json({ err: err })
   // next()
 
@@ -19,8 +14,8 @@ const globalErrorHandler = (
   let message = 'Something Went Wrong'
   let errorMessages: IGenericErrorMessage[] = []
 
-  if (err?.name === 'ValidationError') {
-    const simplifiedError = handleValidationError(err)
+  if (error?.name === 'ValidationError') {
+    const simplifiedError = handleValidationError(error)
     statusCode = simplifiedError.statusCode
     message = simplifiedError.message
     errorMessages = simplifiedError.errorMessages
@@ -51,8 +46,10 @@ const globalErrorHandler = (
     success: false,
     message,
     errorMessages,
-    stack: config.env !== 'production' ? err?.stack : undefined,
+    stack: config.env !== 'production' ? error?.stack : undefined,
   })
+
+  next()
 }
 
 export default globalErrorHandler

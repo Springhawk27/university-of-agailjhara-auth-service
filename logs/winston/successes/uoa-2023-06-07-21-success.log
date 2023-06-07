@@ -2,107 +2,107 @@
   message: 'development',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:56:08.885Z'
-}
-{
-  message: 'development',
-  level: 'info',
-  label: 'Successful!',
-  timestamp: '2023-06-06T18:56:15.635Z'
+  timestamp: '2023-06-07T15:52:35.987Z'
 }
 {
   message: 'Database Connected Successfully',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:56:18.814Z'
+  timestamp: '2023-06-07T15:52:40.167Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:56:18.818Z'
+  timestamp: '2023-06-07T15:52:40.171Z'
 }
 {
   message: 'development',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:57:00.169Z'
+  timestamp: '2023-06-07T15:54:09.198Z'
 }
 {
   message: 'Database Connected Successfully',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:57:02.920Z'
+  timestamp: '2023-06-07T15:54:12.018Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:57:02.924Z'
+  timestamp: '2023-06-07T15:54:12.030Z'
 }
 {
   message: 'development',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:57:46.282Z'
-}
-{
-  message: 'development',
-  level: 'info',
-  label: 'Successful!',
-  timestamp: '2023-06-06T18:57:52.179Z'
+  timestamp: '2023-06-07T15:55:15.903Z'
 }
 {
   message: 'Database Connected Successfully',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:57:55.175Z'
+  timestamp: '2023-06-07T15:55:18.674Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:57:55.179Z'
+  timestamp: '2023-06-07T15:55:18.678Z'
 }
 {
   message: 'development',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:58:39.006Z'
+  timestamp: '2023-06-07T15:57:04.961Z'
 }
 {
   message: 'Database Connected Successfully',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:58:42.185Z'
+  timestamp: '2023-06-07T15:57:07.631Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:58:42.193Z'
+  timestamp: '2023-06-07T15:57:07.642Z'
 }
 {
   message: 'development',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:59:03.248Z'
-}
-{
-  message: 'development',
-  level: 'info',
-  label: 'Successful!',
-  timestamp: '2023-06-06T18:59:08.347Z'
+  timestamp: '2023-06-07T15:57:21.902Z'
 }
 {
   message: 'Database Connected Successfully',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:59:11.363Z'
+  timestamp: '2023-06-07T15:57:24.836Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-06T18:59:11.369Z'
+  timestamp: '2023-06-07T15:57:24.840Z'
+}
+{
+  message: 'development',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-07T15:59:01.345Z'
+}
+{
+  message: 'Database Connected Successfully',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-07T15:59:04.106Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-07T15:59:04.110Z'
 }

@@ -1,4 +1,4 @@
-import { User } from './users.model'
+import { User } from './user.model'
 
 export const findLastUserId = async () => {
   // lean will return a pure javacript object instead of a document(lean in mongodb)
