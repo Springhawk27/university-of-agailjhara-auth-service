@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-unused-vars */
 import { ErrorRequestHandler } from 'express'
+import { Error } from 'mongoose'
 import config from '../../config'
 import ApiError from '../../errors/ApiErrors'
 import handleValidationError from '../../errors/handleValidationError'
