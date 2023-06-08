@@ -1,5 +1,5 @@
 import cors from 'cors'
-import express, { Application } from 'express'
+import express, { Application, Request, Response } from 'express'
 // import usersService from './app/modules/users/users.service'
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
 import { UserRoutes } from './app/modules/users/user.route'
@@ -17,9 +17,9 @@ loggerInfo.info(app.get('env'))
 // Application Routes
 app.use('/api/v1/users/', UserRoutes)
 
-// app.get('/', async (req: Request, res: Response) => {
-//   res.send('Working Successfully!')
-// })
+app.get('/', async (req: Request, res: Response) => {
+  res.send('Working Successfully!')
+})
 
 // unhandled rejection
 // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
