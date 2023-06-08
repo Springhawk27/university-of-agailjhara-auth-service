@@ -22,3 +22,9 @@
   label: 'Successful!',
   timestamp: '2023-06-08T14:13:22.666Z'
 }
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-08T14:56:31.305Z'
+}

@@ -2,7 +2,7 @@ import cors from 'cors'
 import express, { Application, Request, Response } from 'express'
 // import usersService from './app/modules/users/users.service'
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
-import { UserRoutes } from './app/modules/users/user.route'
+import { UserRoutes } from './app/modules/user/user.route'
 import { loggerInfo } from './shared/logger'
 const app: Application = express()
 // const port = 3000
