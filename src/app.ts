@@ -27,13 +27,23 @@ app.use('/api/v1/users/', UserRoutes)
 //   Promise.reject(new Error('Unhandled Promise Rejection'))
 // })
 
+// try another error - uncaught
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   console.log(x)
+// })
+
+// synchronous in async function
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   console.log(x)
+// })
+
 // testing
 // eslint-disable-next-line no-unused-vars, no-undef, @typescript-eslint/no-unused-vars
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
 //   // res.send('Working Successfully!')
-//   throw new ApiError(400, 'Error Error Errror')
+//   // throw new ApiError(400, 'Error Error Errror')
 //   // next('Error Error Errror2')
-//   // throw new Error('Error Error Errror')
+//   throw new Error('Error Error Errror')
 // })
 
 // global error handler
