@@ -1,25 +1,25 @@
-import cors from 'cors'
-import express, { Application, Request, Response } from 'express'
+import cors from 'cors';
+import express, { Application, Request, Response } from 'express';
 // import usersService from './app/modules/users/users.service'
-import globalErrorHandler from './app/middlewares/globalErrorHandler'
-import { UserRoutes } from './app/modules/user/user.route'
-import { loggerInfo } from './shared/logger'
-const app: Application = express()
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import { UserRoutes } from './app/modules/user/user.route';
+import { loggerInfo } from './shared/logger';
+const app: Application = express();
 // const port = 3000
-app.use(cors())
+app.use(cors());
 
 // parser
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-loggerInfo.info(app.get('env'))
+loggerInfo.info(app.get('env'));
 
 // Application Routes
-app.use('/api/v1/users/', UserRoutes)
+app.use('/api/v1/users/', UserRoutes);
 
 app.get('/', async (req: Request, res: Response) => {
-  res.send('Working Successfully!')
-})
+  res.send('Working Successfully!');
+});
 
 // unhandled rejection
 // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
@@ -47,6 +47,6 @@ app.get('/', async (req: Request, res: Response) => {
 // })
 
 // global error handler
-app.use(globalErrorHandler)
+app.use(globalErrorHandler);
 
-export default app
+export default app;

@@ -1,4 +1,4 @@
-import { User } from './user.model'
+import { User } from './user.model';
 
 export const findLastUserId = async () => {
   // lean will return a pure javacript object instead of a document(lean in mongodb)
@@ -6,16 +6,16 @@ export const findLastUserId = async () => {
     .sort({
       createdAt: -1,
     })
-    .lean()
-  return lastUser?.id
-}
+    .lean();
+  return lastUser?.id;
+};
 
 // let lastUserId = 0
 export const generateUserId = async () => {
-  const currentId = (await findLastUserId()) || (0).toString().padStart(5, '0')
-  const incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0')
-  return incrementedId
+  const currentId = (await findLastUserId()) || (0).toString().padStart(5, '0');
+  const incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0');
+  return incrementedId;
 
   // lastUserId++
   // return String(lastUserId).padStart(5, '0')
-}
+};
