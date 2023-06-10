@@ -1,140 +1,155 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/.a9e4366ed2e9d4b5f8daf4e9d87407fe67408ad8-audit.json",
+  "files": [
+    {
+      "date": 1685876583799,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-04-17-success.log",
+      "hash": "86d5583f8bd5a75720d75e7887e71bc9f35e3af1eeac24ea828703da4c212e6e"
     },
-    "auditLog": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/.a9e4366ed2e9d4b5f8daf4e9d87407fe67408ad8-audit.json",
-    "files": [
-        {
-            "date": 1685876583799,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-04-17-success.log",
-            "hash": "86d5583f8bd5a75720d75e7887e71bc9f35e3af1eeac24ea828703da4c212e6e"
-        },
-        {
-            "date": 1685899162660,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-04-23-success.log",
-            "hash": "8696c30d0f70850b9bb2e96f544baef301977f2509faa221d588006162ab92a3"
-        },
-        {
-            "date": 1685901981462,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-05-00-success.log",
-            "hash": "6afc486f5bc482f4d533c6f9540df0e5aac816609f31b047afddacd28026a7f6"
-        },
-        {
-            "date": 1686059170360,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-06-19-success.log",
-            "hash": "ff9ee23a2cabe604d455c1dc00064d0351d151531ba8d41b6f9e8209a16c8fb8"
-        },
-        {
-            "date": 1686060491800,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-06-20-success.log",
-            "hash": "57f5afbc8ba9227f4d310fe4e49d25e8f1de3dabf642647933899908cb835e96"
-        },
-        {
-            "date": 1686067471453,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-06-22-success.log",
-            "hash": "848d3b6f0abffbac1b25a6069882a2ec4b341c246869e7acdda956d9f785c115"
-        },
-        {
-            "date": 1686071970723,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-06-23-success.log",
-            "hash": "e6d78e76c81d190bbc8d9c0fd18f0f27274b85deddaa4f2e1d01e0d62f6d650c"
-        },
-        {
-            "date": 1686077768875,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-00-success.log",
-            "hash": "1002901062745c96ed2acfc299c6478d001f7c35dd5fb5c965511ac03cbd447c"
-        },
-        {
-            "date": 1686078010905,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-01-success.log",
-            "hash": "7edbc7b0f72f830c5ed2c352229015e7d49ce352bb83191240f500f69c2c2e73"
-        },
-        {
-            "date": 1686129436910,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-15-success.log",
-            "hash": "b8625eb4038c20f8bb6feef4e173cf1985b1be8938f7bf1e272b2f596914abac"
-        },
-        {
-            "date": 1686146480028,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-20-success.log",
-            "hash": "c9ccc80f67cd4d6bda59c90b3f902962fb8b8995112d98fbe83ba7312f3825ed"
-        },
-        {
-            "date": 1686153155955,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-21-success.log",
-            "hash": "7c01144f4d3e93116d9688f70f99c9ac285c49c7217eaebeb54ccdffabd1262d"
-        },
-        {
-            "date": 1686153611559,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-22-success.log",
-            "hash": "230e96ec608f1d7130836d53e5ccec24779cd65f89a6ee58bd78b4a1f2dd2426"
-        },
-        {
-            "date": 1686169335646,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-02-success.log",
-            "hash": "2c874508e629673b88153172e10bc4ce1ce5c14c7bf6bf68e9e350d800209f13"
-        },
-        {
-            "date": 1686217382203,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-15-success.log",
-            "hash": "2329a8648f0664d49834d8247d5c98be5f99500d90880b05200e94c41e487bf9"
-        },
-        {
-            "date": 1686218832382,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-16-success.log",
-            "hash": "94f97b8abf7bc21978f2c180f0a63b0db62f8efd412c59024e0f6728962f254b"
-        },
-        {
-            "date": 1686223087343,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-17-success.log",
-            "hash": "b23c1dd5147699ad9fec72b957654a13f99c5374bc25c31566b91df0da98f1cc"
-        },
-        {
-            "date": 1686233223007,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-20-success.log",
-            "hash": "e41399ab57e1b08cbff9af87d6e82e9f8d7818332a9c2db1a763e9fdb811de7a"
-        },
-        {
-            "date": 1686249679637,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-09-00-success.log",
-            "hash": "9a80f4dc2e5ceb464879895048ad492fa4586d35bb6ba9362d29b8731ce285d7"
-        },
-        {
-            "date": 1686316427123,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-09-19-success.log",
-            "hash": "45ad2a0123ae3ebe2cf08f8999a1543c40b1451a324eeb6270626054db7fd5bb"
-        },
-        {
-            "date": 1686328673244,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-09-22-success.log",
-            "hash": "b4f8dd41fdced80979fa2dab75ee978e4d97923ea04cd726e23fe61066b62a65"
-        },
-        {
-            "date": 1686330115839,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-09-23-success.log",
-            "hash": "c25df900af310e86ad8d431e26406cf463ee1ce0e04d60ea44d0e71a95e9f281"
-        },
-        {
-            "date": 1686404759127,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-10-19-success.log",
-            "hash": "50f5b76596f1f1047c173cbc54faf60f492f03f555ad403b6e42c68d79140738"
-        },
-        {
-            "date": 1686405763351,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-10-20-success.log",
-            "hash": "1f1167561b3f2393a367dcc22f56d84399b7db337dad8fd9589eb04e9be94cd5"
-        },
-        {
-            "date": 1686412542250,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-10-21-success.log",
-            "hash": "ad9eae17106e7041c02e890c3ad92a7cf7023f6e0d806dc463677f1248f94454"
-        },
-        {
-            "date": 1686418744970,
-            "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-10-23-success.log",
-            "hash": "2a9bdcea80b51e3e24c2a8ac9912eb2e91dbad8ed08c11b04a8a24aacabd29ea"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1685899162660,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-04-23-success.log",
+      "hash": "8696c30d0f70850b9bb2e96f544baef301977f2509faa221d588006162ab92a3"
+    },
+    {
+      "date": 1685901981462,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-05-00-success.log",
+      "hash": "6afc486f5bc482f4d533c6f9540df0e5aac816609f31b047afddacd28026a7f6"
+    },
+    {
+      "date": 1686059170360,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-06-19-success.log",
+      "hash": "ff9ee23a2cabe604d455c1dc00064d0351d151531ba8d41b6f9e8209a16c8fb8"
+    },
+    {
+      "date": 1686060491800,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-06-20-success.log",
+      "hash": "57f5afbc8ba9227f4d310fe4e49d25e8f1de3dabf642647933899908cb835e96"
+    },
+    {
+      "date": 1686067471453,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-06-22-success.log",
+      "hash": "848d3b6f0abffbac1b25a6069882a2ec4b341c246869e7acdda956d9f785c115"
+    },
+    {
+      "date": 1686071970723,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-06-23-success.log",
+      "hash": "e6d78e76c81d190bbc8d9c0fd18f0f27274b85deddaa4f2e1d01e0d62f6d650c"
+    },
+    {
+      "date": 1686077768875,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-00-success.log",
+      "hash": "1002901062745c96ed2acfc299c6478d001f7c35dd5fb5c965511ac03cbd447c"
+    },
+    {
+      "date": 1686078010905,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-01-success.log",
+      "hash": "7edbc7b0f72f830c5ed2c352229015e7d49ce352bb83191240f500f69c2c2e73"
+    },
+    {
+      "date": 1686129436910,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-15-success.log",
+      "hash": "b8625eb4038c20f8bb6feef4e173cf1985b1be8938f7bf1e272b2f596914abac"
+    },
+    {
+      "date": 1686146480028,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-20-success.log",
+      "hash": "c9ccc80f67cd4d6bda59c90b3f902962fb8b8995112d98fbe83ba7312f3825ed"
+    },
+    {
+      "date": 1686153155955,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-21-success.log",
+      "hash": "7c01144f4d3e93116d9688f70f99c9ac285c49c7217eaebeb54ccdffabd1262d"
+    },
+    {
+      "date": 1686153611559,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-07-22-success.log",
+      "hash": "230e96ec608f1d7130836d53e5ccec24779cd65f89a6ee58bd78b4a1f2dd2426"
+    },
+    {
+      "date": 1686169335646,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-02-success.log",
+      "hash": "2c874508e629673b88153172e10bc4ce1ce5c14c7bf6bf68e9e350d800209f13"
+    },
+    {
+      "date": 1686217382203,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-15-success.log",
+      "hash": "2329a8648f0664d49834d8247d5c98be5f99500d90880b05200e94c41e487bf9"
+    },
+    {
+      "date": 1686218832382,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-16-success.log",
+      "hash": "94f97b8abf7bc21978f2c180f0a63b0db62f8efd412c59024e0f6728962f254b"
+    },
+    {
+      "date": 1686223087343,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-17-success.log",
+      "hash": "b23c1dd5147699ad9fec72b957654a13f99c5374bc25c31566b91df0da98f1cc"
+    },
+    {
+      "date": 1686233223007,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-08-20-success.log",
+      "hash": "e41399ab57e1b08cbff9af87d6e82e9f8d7818332a9c2db1a763e9fdb811de7a"
+    },
+    {
+      "date": 1686249679637,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-09-00-success.log",
+      "hash": "9a80f4dc2e5ceb464879895048ad492fa4586d35bb6ba9362d29b8731ce285d7"
+    },
+    {
+      "date": 1686316427123,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-09-19-success.log",
+      "hash": "45ad2a0123ae3ebe2cf08f8999a1543c40b1451a324eeb6270626054db7fd5bb"
+    },
+    {
+      "date": 1686328673244,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-09-22-success.log",
+      "hash": "b4f8dd41fdced80979fa2dab75ee978e4d97923ea04cd726e23fe61066b62a65"
+    },
+    {
+      "date": 1686330115839,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-09-23-success.log",
+      "hash": "c25df900af310e86ad8d431e26406cf463ee1ce0e04d60ea44d0e71a95e9f281"
+    },
+    {
+      "date": 1686404759127,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-10-19-success.log",
+      "hash": "50f5b76596f1f1047c173cbc54faf60f492f03f555ad403b6e42c68d79140738"
+    },
+    {
+      "date": 1686405763351,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-10-20-success.log",
+      "hash": "1f1167561b3f2393a367dcc22f56d84399b7db337dad8fd9589eb04e9be94cd5"
+    },
+    {
+      "date": 1686412542250,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-10-21-success.log",
+      "hash": "ad9eae17106e7041c02e890c3ad92a7cf7023f6e0d806dc463677f1248f94454"
+    },
+    {
+      "date": 1686418744970,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-10-23-success.log",
+      "hash": "2a9bdcea80b51e3e24c2a8ac9912eb2e91dbad8ed08c11b04a8a24aacabd29ea"
+    },
+    {
+      "date": 1686420753379,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-11-00-success.log",
+      "hash": "07efc47147ddd11b22a62f8097756278599b51dc675e48e335a93aaf67b49b4c"
+    },
+    {
+      "date": 1686423721341,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-11-01-success.log",
+      "hash": "5c80932c4ae73974f2cc0a21a0c839b42cb4b8926151d74a6d7392da44865766"
+    },
+    {
+      "date": 1686428765962,
+      "name": "/Users/sazzadmahmud/Documents/0 Next Level Web Development/Mission 3 - Be a NoSQL Backend Brainiac/Module 11 -  How to setup and organize your project professionally/University Of Agailjhara/logs/winston/successes/uoa-2023-06-11-02-success.log",
+      "hash": "ab3976012d896e1b207bfd2bcc2d85d2b6935172f3ac999bcbd615038aa8ab35"
+    }
+  ],
+  "hashType": "sha256"
 }
