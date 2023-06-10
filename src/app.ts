@@ -18,7 +18,6 @@ loggerInfo.info(app.get('env'));
 // Application Routes
 app.use('/api/v1/users/', UserRoutes);
 app.use('/api/v1/academic-semesters/', AcademicSemesterRoutes);
-
 app.get('/', async (req: Request, res: Response) => {
   res.send('Working Successfully!');
 });
