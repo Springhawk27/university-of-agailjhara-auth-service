@@ -1,0 +1,12 @@
+{
+  message: 'development',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-13T18:00:29.810Z'
+}
+{
+  message: 'development',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-13T18:02:19.653Z'
+}

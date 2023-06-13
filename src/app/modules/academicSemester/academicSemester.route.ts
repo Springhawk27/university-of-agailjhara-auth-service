@@ -13,6 +13,8 @@ router.post(
 );
 
 router.get('/:id', AcademicSemesterContoller.getSingleSemester);
+router.patch('/:id', AcademicSemesterContoller.updateSemester);
+
 router.get('/', AcademicSemesterContoller.getAllSemesters);
 
 export const AcademicSemesterRoutes = router;
