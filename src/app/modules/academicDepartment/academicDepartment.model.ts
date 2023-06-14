@@ -22,6 +22,7 @@ const AcademicDepartmentSchema = new Schema<
   },
   {
     timestamps: true,
+    // will get the _id as id
     toJSON: {
       virtuals: true,
     },
