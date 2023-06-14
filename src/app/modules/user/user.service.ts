@@ -47,7 +47,7 @@ const getAllUsers = async (
       $or: userSearchableFields.map(field => ({
         [field]: {
           $regex: searchTerm,
-          $options: 'i',
+          $options: 'i', // case-insensitive
         },
       })),
     });

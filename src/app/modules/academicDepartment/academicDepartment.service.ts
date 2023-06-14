@@ -25,7 +25,7 @@ const getAllDepartments = async (
       $or: academicDepartmentSearchableFields.map(field => ({
         [field]: {
           $regex: searchTerm,
-          $options: 'i',
+          $options: 'i', // case-insensitive
         },
       })),
     });
