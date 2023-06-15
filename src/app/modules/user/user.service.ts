@@ -7,12 +7,21 @@ import { IPaginationOptions } from '../../../interfaces/pagination';
 import { userSearchableFields } from './user.constants';
 import { IUser, IUserFilters } from './user.interface';
 import { User } from './user.model';
-import { generateUserId } from './user.utils';
+// eslint-disable-next-line no-unused-vars
+import { generateFacultyId } from './user.utils';
 
 // we will not use req,res in service. Controller will handle these things
 const createUser = async (user: IUser): Promise<IUser | null> => {
   // auto generated incremental id
-  const id = await generateUserId();
+  // const id = await generateUserId();
+
+  /// generate student Id
+  // eslint-disable-next-line no-unused-vars
+  const academicSemester = {
+    code: '01',
+    year: '2028',
+  };
+  const id = await generateFacultyId();
 
   user.id = id;
   // default password

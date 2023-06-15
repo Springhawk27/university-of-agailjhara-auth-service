@@ -1,0 +1,18 @@
+{
+  message: 'development',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-15T14:58:41.484Z'
+}
+{
+  message: 'Database Connected Successfully',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-15T14:58:44.871Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'Successful!',
+  timestamp: '2023-06-15T14:58:44.884Z'
+}
