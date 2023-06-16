@@ -1,28 +1,16 @@
 import express from 'express';
+import validateRequest from '../../middlewares/validateRequest';
 import { UserController } from './user.controller';
 import { UserValidation } from './user.validation';
-import validateRequest from '../../middlewares/validateRequest';
-
 const router = express.Router();
 
 router.post(
-  '/create-user',
+  '/create-student',
   validateRequest(UserValidation.createUserZodSchema),
-  UserController.createUser
+  UserController.createStudent
 );
 
-// router.get('/:id', AcademicDepartmentController.getSingleDepartment);
+//create faculty
 
-// router.patch(
-//   '/:id',
-//   validateRequest(
-//     AcademicDepartmentValidation.updateAcademicDepartmentZodSchema
-//   ),
-//   AcademicDepartmentController.updateDepartment
-// );
-
-// router.delete('/:id', AcademicDepartmentController.deleteDepartment);
-
-router.get('/', UserController.getAllUser);
-
+//create admin
 export const UserRoutes = router;

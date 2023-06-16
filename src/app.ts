@@ -4,8 +4,8 @@ import express, { Application, NextFunction, Request, Response } from 'express';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 
 import httpStatus from 'http-status';
+// eslint-disable-next-line no-unused-vars
 import routes from './app/routes';
-import { loggerInfo } from './shared/logger';
 const app: Application = express();
 // const port = 3000
 app.use(cors());
@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-loggerInfo.info(app.get('env'));
+// console.log(app.get('env'));
 
 // Application Routes
 // app.use('/api/v1/users/', UserRoutes);
@@ -68,5 +68,18 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   });
   next();
 });
+
+/// testing
+// eslint-disable-next-line no-unused-vars
+// const academicSemester = {
+//   code: '01',
+//   year: '2025',
+// };
+
+// const testId = async () => {
+//   const testId = await generateFacultyId();
+//   console.log(testId);
+// };
+// testId();
 
 export default app;

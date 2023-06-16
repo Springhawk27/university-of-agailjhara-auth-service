@@ -10,7 +10,6 @@ import handleCastError from '../../errors/handleCastError';
 import handleValidationError from '../../errors/handleValidationError';
 import handleZodError from '../../errors/handleZodError';
 import { IGenericErrorMessage } from '../../interfaces/error';
-import { loggerError } from '../../shared/logger';
 
 // if the error is the first parameter then this is a error path pattern hence - ErrorRequestHandler
 const globalErrorHandler: ErrorRequestHandler = (
@@ -25,7 +24,7 @@ const globalErrorHandler: ErrorRequestHandler = (
   config.env === 'development'
     ? // eslint-disable-next-line no-console
       console.log('globalErrorHandler', error)
-    : loggerError.error('globalErrorHandler', error);
+    : console.log('globalErrorHandler', error);
 
   let statusCode = 500;
   let message = 'Something Went Wrong';
