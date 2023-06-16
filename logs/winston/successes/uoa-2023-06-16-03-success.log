@@ -2,17 +2,17 @@
   message: 'development',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-15T17:18:13.590Z'
+  timestamp: '2023-06-15T21:42:54.845Z'
 }
 {
   message: 'Database Connected Successfully',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-15T17:18:16.350Z'
+  timestamp: '2023-06-15T21:42:57.897Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   label: 'Successful!',
-  timestamp: '2023-06-15T17:18:16.356Z'
+  timestamp: '2023-06-15T21:42:57.906Z'
 }

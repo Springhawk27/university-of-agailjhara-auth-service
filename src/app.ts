@@ -6,7 +6,6 @@ import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import httpStatus from 'http-status';
 // eslint-disable-next-line no-unused-vars
 import routes from './app/routes';
-import { loggerInfo } from './shared/logger';
 const app: Application = express();
 // const port = 3000
 app.use(cors());
@@ -15,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-loggerInfo.info(app.get('env'));
+// console.log(app.get('env'));
 
 // Application Routes
 // app.use('/api/v1/users/', UserRoutes);
