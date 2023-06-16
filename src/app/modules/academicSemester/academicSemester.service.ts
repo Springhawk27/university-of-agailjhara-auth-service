@@ -43,7 +43,7 @@ const getAllSemesters = async (
       $or: academicSemesterSearchableFields.map(field => ({
         [field]: {
           $regex: searchTerm,
-          $options: 'i',
+          $options: 'i', // // case-insensitive
         },
       })),
     });
