@@ -12,9 +12,9 @@ https://university-of-agailjhara-auth.vercel.app/api/v1/students
 
 - api/v1/users/create-student (POST)
 
-- student:
+### student:
 
-  - api/v1/students/ (GET) [All]
+- api/v1/students/ (GET) [All]
 
 - api/v1/students/:id (GET)
   - example: api/v1/students/210100001 (GET)
