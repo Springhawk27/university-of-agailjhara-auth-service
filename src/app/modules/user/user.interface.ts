@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Model, Types } from 'mongoose';
 import { IAdmin } from '../admin/admin.interface';
 import { IFaculty } from '../faculty/faculty.interface';
@@ -8,13 +9,22 @@ export type IUser = {
   id: string;
   role: string;
   password: string;
+  needsPasswordChange: true | false;
   student?: Types.ObjectId | IStudent;
   faculty?: Types.ObjectId | IFaculty;
   admin?: Types.ObjectId | IAdmin;
 };
 
-// Create a new Model type that knows about IUserMethods...
-export type UserModel = Model<IUser, Record<string, unknown>>;
+export type IUserMethods = {
+  isUserExist(id: string): Promise<Partial<IUser> | null>;
+  isPasswordMatched(
+    givenPassword: string,
+    savedPassword: string
+  ): Promise<boolean>;
+};
+
+// Create a new Model type that knows about   IUserMethods...
+export type UserModel = Model<IUser, Record<string, unknown>, IUserMethods>;
 
 export type IUserFilters = {
   searchTerm?: string;
