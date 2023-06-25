@@ -23,8 +23,18 @@ export type IUserMethods = {
   ): Promise<boolean>;
 };
 
-// Create a new Model type that knows about   IUserMethods...
-export type UserModel = Model<IUser, Record<string, unknown>, IUserMethods>;
+// // Create a new Model type that knows about   IUserMethods...
+// export type UserModel = Model<IUser, Record<string, unknown>, IUserMethods>;
+
+export type UserModel = {
+  isUserExist(
+    id: string
+  ): Promise<Pick<IUser, 'id' | 'password' | 'role' | 'needsPasswordChange'>>;
+  isPasswordMatched(
+    givenPassword: string,
+    savedPassword: string
+  ): Promise<boolean>;
+} & Model<IUser>;
 
 export type IUserFilters = {
   searchTerm?: string;
