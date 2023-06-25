@@ -76,7 +76,7 @@ const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
     config.jwt.refresh_expires_in as string
   );
 
-  console.log(accessToken, refreshToken, needsPasswordChange);
+  // console.log({ accessToken, refreshToken, needsPasswordChange });
 
   return { accessToken, refreshToken, needsPasswordChange };
 };
