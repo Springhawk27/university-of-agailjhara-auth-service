@@ -1,7 +1,9 @@
 import { Request, Response } from 'express';
+import httpStatus from 'http-status';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { AuthService } from './auth.service';
+import { ILoginUserResponse } from './auth.interface';
 
 // eslint-disable-next-line no-unused-vars
 const loginUser = catchAsync(async (req: Request, res: Response) => {
@@ -20,8 +22,8 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
 
   // res.cookie('refreshToken', refreshToken, cookieOptions);
 
-  sendResponse(res, {
-    statusCode: 200,
+  sendResponse<ILoginUserResponse>(res, {
+    statusCode: httpStatus.OK,
     success: true,
     message: 'User lohggedin successfully !',
     data: result,
